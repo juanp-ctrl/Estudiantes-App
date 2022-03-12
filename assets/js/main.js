@@ -120,7 +120,7 @@ function cargarCategorias(){
     opcion = document.getElementById('opciones').selectedOptions[0].value;
 
     for (let j=0; j<categorias.length; j++){
-        valor = categorias.at(j).item(1).id;
+        valor = categorias[j].item(1).id;
         if(opcion != valor){
             valores2 = document.getElementsByName(valor);
             let n = 0;
