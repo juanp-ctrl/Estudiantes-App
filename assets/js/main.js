@@ -12,7 +12,7 @@ document.addEventListener('readystatechange', function() {
         ele = ele2.getElementsByTagName("div")[0];
         menu = document.getElementsByTagName("nav")[0];
         init();
-        if(page === "apuntes.html" || path === "/App-movil-en-web/apuntes.html"){
+        if(path === "/apuntes.html"){
             opcion = document.getElementById('opciones').selectedOptions[0].value;
             for (let i = 0; i < 4; i++) {
                 let valor = document.getElementById("enlace"+(i+1)).childNodes;
@@ -22,7 +22,7 @@ document.addEventListener('readystatechange', function() {
             document.getElementById("opciones").addEventListener("change", cargarCategorias);
             cerrar = document.getElementById("cerrar_s").addEventListener("click", cerrarSesion);
         }
-        else if(page === "index.html" || path === "/App-movil-en-web/"){
+        else if(path === "/"){
             v_login = document.getElementById("vista_login");
             v_home = document.getElementById("vista_home");
             v_registro = document.getElementById("vista_registro");
