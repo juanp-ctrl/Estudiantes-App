@@ -22,7 +22,7 @@ document.addEventListener('readystatechange', function() {
             document.getElementById("opciones").addEventListener("change", cargarCategorias);
             cerrar = document.getElementById("cerrar_s").addEventListener("click", cerrarSesion);
         }
-        else if(path === "/"){
+        else if(path === "/" || path === "/index.html"){
             v_login = document.getElementById("vista_login");
             v_home = document.getElementById("vista_home");
             v_registro = document.getElementById("vista_registro");
@@ -81,11 +81,11 @@ function cerrarRecuadro(){
     document.getElementById("recuadro_s").classList.remove("active");
     document.getElementById("body-overlay2").classList.remove("menu-open");
     sessionStorage.setItem("sesion", 0);
-    if(page === "index.html"){
+    if(path === "/" || path === "/index.html"){
         cargarVistas();
     }
     else{
-        document.location = "index.html";
+        document.location = "/";
     }
 }
 
