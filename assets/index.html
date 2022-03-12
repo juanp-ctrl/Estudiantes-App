@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap" rel="stylesheet">
+    <script src="js/main.min.js"></script>
+    <title>Estudiantes App</title>
+</head>
+<body>
+    <div id="celular">
+        <div id="body-overlay"></div>
+        <div id="body-overlay2"></div>
+        <div id="contenedor-recuadro">
+            <div id="recuadro_s">
+
+                <p>Sesión cerrada</p>
+                <a href="#" id="entendido">Entendido</a>
+            </div>
+        </div>
+        <section id="vista_login">
+            <div id="img_login"><img src="img/iconoapp.png" alt="Logo de login"></div>
+            <h2 id="tituloRegistro">ESTUDIANTES APP</h2>
+            <form action="">
+                <div id="entrada">
+                    <h3>Correo:</h3>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div id="entrada">
+                    <h3>Contraseña:</h3>
+                    <input type="password" name="password" id="password">
+                </div>
+                <a id="Entrar" class="enlaces-registro"><h4>Entrar</h4></a>
+                <a id="Registrar" class="enlaces-registro"><h4>Registrarse</h4></a>
+            </form>
+        </section>
+        <section id="vista_registro">
+            <h2>Registro</h2>
+            <section>
+                <h2 id="tituloRegistro">¡Bienvenido a EstudiantesApp! </h2> <br>
+                <label> Ingresa la siguiente información para la creación de tu perfil </label> <br> <br>
+                    <form id="formulario"novalidate>
+                        <label> Nombre </label> <br> 
+                        <input type="text" id="nombre" name="nombre" required> <br> <br>
+                        <label> Correo </label> <br> 
+                        <input type="email" name="correo" id="correo2" required> <br> <br>
+                        <label> Universidad </label> <br> 
+                        <input type="text" name="universidad" id="universidad" required> <br> <br>
+                        <label> Carrera </label> <br> 
+                        <input type="text" id="carrera" name="carrera" required> <br> <br>
+                        <label> ¿Es monitor? </label> 
+                        <input type="checkbox" name="EsMonitor" id="monitor"> <br> <br>
+                        <label> Contraseña </label> <br>
+                        <input type="password" id="password2" name="password" required> <br> <br>
+                        <button type="sumbit" id="boton_regist">Registrarse</button> <br>
+                    </form> 
+                    <h3>¿Ya te encuentras registrado?</h3>
+                    <a href="index.html" class="enlaces-registro"> Log in</a>
+
+            </section>
+        </section>
+        <section id="vista_home">
+            <nav id="real-menu" role="navigation">
+                <h2>Menu</h2>            
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="estudiantes.html">Estudiantes</a></li>
+                    <li><a href="monitores.html">Monitores</a></li>
+                    <li><a href="apuntes.html">Apuntes</a></li>
+                    <li><a href="gruposDeEstudio.html">Grupos de estudio</a></li>
+                    <li><a href="acercaDe.html">Acerca De</a></li>
+                    <li><a href="#" id="cerrar_s">Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+            <header>
+                <div id="menu"><button id="open-menu"><img src="img/menu.png" alt="Imagen de menu"></button></div>
+                <div id="titulo"><h1>Estudiantes App</h1></div>
+                <div id="home"><a href="index.html"><img src="img/home.png" alt="Imagen de home"></a></div>
+            </header>
+            <main>
+                <div id="enlace">
+                    <div id="espaciado"></div>
+                    <div id="contenido">
+                        <div id="imagen"><img src="img/estudiante.png" alt="Imagen de estudiante"></div>
+                        <div id="texto">
+                            <a href="estudiantes.html"><h2>Estudiantes</h2></a>
+                            <p>En esta sección podrás encontrar estudiantes como tú que ya se han unido a la aplicación, podrás 
+                                ver sus perfiles y conocer qué están estudiando o cuáles son sus intereses. ¡Empieza a socializar!</p>
+                        </div>
+                    </div>
+                    <div id="espaciado"></div>
+                </div>
+        
+                <div id="enlace">
+                    <div id="espaciado"></div>
+                    <div id="contenido">
+                        <div id="imagen"><img src="img/monitor.png" alt="Imagen de monitor enseñando"></div>
+                        <div id="texto">
+                            <a href="monitores.html"><h2>Monitores</h2></a>
+                            <p>Si estás buscando ayuda, explicaciones o necesitas repasar algún tema aquí encontrarás los monitores
+                                que están disponibles y están dispuestos a ayudarte en tus materias. </p>
+                        </div>
+                    </div>
+                    <div id="espaciado"></div>
+                </div>
+        
+                <div id="enlace">
+                    <div id="espaciado"></div>
+                    <div id="contenido">
+                        <div id="imagen"><img src="img/apuntes.png" alt="Imagen de cuaderno"></div>
+                        <div id="texto">
+                            <a href="apuntes.html"><h2>Apuntes</h2></a>
+                            <p> Una biblioteca de apuntes que han hecho otros estudiantes, variedad de materias para que encuentres
+                                lo que estás buscando. </p>
+                        </div>
+                    </div>
+                    <div id="espaciado"></div>
+                </div>
+        
+                <div id="enlace">
+                    <div id="espaciado"></div>
+                    <div id="contenido">
+                        <div id="imagen"><img src="img/grupo.png" alt="Imagen de grupo de estudio"></div>
+                        <div id="texto">
+                            <a href="gruposDeEstudio.html"><h2>Grupos de estudio</h2></a>
+                            <p> Revisa qué grupos de estudio están programados cada semana y únete a estudiar colaborativamente.</p>
+                        </div>
+                    </div>
+                    <div id="espaciado"></div>
+                </div>
+        
+                <div id="enlace">
+                    <div id="espaciado"></div>
+                    <div id="contenido">
+                        <div id="imagen"><img src="img/iconoapp.png" alt="Imagen del icono de la app"></div>
+                        <div id="texto">
+                            <a href="acercaDe.html"><h2>Acerca De</h2></a>
+                            <p>Explora más información de EstudiantesApp.</p>
+                        </div>
+                    </div>
+                    <div id="espaciado"></div>
+                </div>
+                <svg style="background-color: #f5f3ed;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#1D976C" fill-opacity="1" d="M0,96L30,90.7C60,85,120,75,180,112C240,149,300,235,360,245.3C420,256,480,192,540,181.3C600,171,660,213,720,234.7C780,256,840,256,900,234.7C960,213,1020,171,1080,165.3C1140,160,1200,192,1260,224C1320,256,1380,288,1410,304L1440,320L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+                </svg>
+            </main>
+        </section>
+    </div>
+
+</body>
+</html>

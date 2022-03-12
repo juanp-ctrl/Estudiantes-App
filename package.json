@@ -1,0 +1,31 @@
+{
+  "name": "estudiantes_app",
+  "version": "1.0.1",
+  "description": "Aplicacion hibrida de android para los estudiantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanp-ctrl/Estudiantes-App.git"
+  },
+  "keywords": [
+    "App",
+    "Android",
+    "Students"
+  ],
+  "author": "Ralph-Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanp-ctrl/Estudiantes-App/issues"
+  },
+  "homepage": "https://github.com/juanp-ctrl/Estudiantes-App#readme",
+  "dependencies": {
+    "@capacitor/android": "^3.4.3",
+    "@capacitor/core": "^3.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^3.4.3"
+  }
+}

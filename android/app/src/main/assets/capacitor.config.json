@@ -1,0 +1,6 @@
+{
+	"appId": "co.edu.upb.estudiantes_app.app",
+	"appName": "estudiantes_app",
+	"webDir": "assets",
+	"bundledWebRuntime": false
+}
