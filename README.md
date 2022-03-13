@@ -1,7 +1,7 @@
 # Estudiantes-App
 
 <p align="center">
-  <img src="https://github.com/juanp-ctrl/App-movil-en-web/blob/main/img/iconoapp_v2.png?raw=true" alt="Icono de la App"/>
+  <img src="https://github.com/juanp-ctrl/App-movil-en-web/blob/main/img/iconoapp_v3.png?raw=true" alt="Icono de la App"/>
 </p>
 
 ## Objetivo del proyecto
